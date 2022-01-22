@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+    background-color: #e9ecef;
+    font-size: 25px;
+}
+header {
+    width: 100%;
+    margin:auto;
+    background-color: #343a40;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+h1 {
+    color:coral;
+    font-family: "Audiowide", sans-serif;
+    margin-left: 15px;
+}
+
+ul li {
+    display:inline;
+    margin-right: 100px;
+    margin-top: 10px;
+    padding:0px 15px;
+    
+}
+a {
+    text-decoration: none;
+    padding: 0px;
+    color:white;
+    font-weight: bold;  
+}
+ul {
+    list-style: none;
+}
+.başlık {
+    color: rgb(55,60,2);
+    font-size:50px;
+}
+#fs-25 {
+    font-size:20px;
+    color : rgb(225, 65, 65);
+    font-weight: bold
+}
+#fs-25 a {
+    color:coral;
+    background-color: #343a40;
+}
+
+#ilk {
+    border-radius: 15px;
+    width: 75%;
+    margin-top: 20px;
+}
+.fs-color {
+    font-size:20px;
+    font-weight:bold;
+    color:orangered;
+    margin-top:100px;
+    margin-bottom: 180px;
+}
+img {
+    border-radius: 15px;
+}
+.ürün {
+    background-color:  #e9ecef;
+    font-size: 25px;
+    font-weight:bold;
+    color: rgb(25, 25, 25);
+    font-family:"Fantasy",Papyrus ;
+}
+#index-footer {
+    background-color: #343a40;
+    width: 100%;
+    position: relative;
+}
+#about-footer {
+    background-color: #343a40;
+    width: 100%;
+    height: 40px;
+}
+#index-footer {
+    background-color: #343a40;
+    width: 100%;
+    height: 40px;
+}
+div {
+    float: left;
+}
+div img {
+    width:600px;
+    height:300px;
+}
+.clear {
+    clear: both;
+}
+.box1,.box2,.box3,.box4,.box5 {
+    margin: 20px;
+}
+button {
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#product-footer {
+    background-color: #343a40;
+    width: 100%;
+    height: 40px;
+    clear: both;
+}
