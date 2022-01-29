@@ -167,6 +167,7 @@ ul a:hover{
 
 .footer__bottom--right {
     float: right;
+    padding-right: 10px;
 }
 
 
