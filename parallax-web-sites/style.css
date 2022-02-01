@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightgray;
+    font-weight: 500px;
+    font-size: 20px;
+  }
+.header {
+    background-image: url(bg1.jpg);
+    min-height: 800px;
+    margin: auto;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+    margin-bottom:0px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div {
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: 0.5rem;
+    color: white;
+    min-width: 250px;
+}
+#first {
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    outline: 15px solid purple;
+    outline-offset: 20px;
+    background-color: gray;
+    line-height: 90px;
+    padding: 40px;
+    min-width: 250px;
+    min-width: 75%;
+}
+main {
+    text-align: center;
+}
+article {
+    margin-top:0px;
+    padding: 48px 80px;
+    line-height: 30px;
+}
+.fs {
+    background-color: lightgray;
+    color: #666;
+    margin-top:0px;
+    padding-top:0px;
+}
+img {
+    width:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img1 {
+    margin:auto;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgba(100,100,100,0.5),rgba(0,0,0,0.7)),url(bg2.jpg) ;
+    min-height:100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 424px;
+}
+.aws {
+    background-color: darkslategray;
+    color:white;
+}
+.way {
+    background-image:  linear-gradient(to bottom, rgba(100,100,100,0.5),rgba(0,0,0,0.7)),url(bg3.jpg);
+    min-height: 100%;
+    margin: auto;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:0px;
+    min-height:100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 424px;
+}
+#second {
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    outline: 15px solid purple;
+    outline-offset: 10px;
+    background-color: black;
+    padding: 40px;
+    width:60%;
+    color:white;
+    letter-spacing:10px;
+    font-size: 35px;
+}
+.ds {
+    background-color: bisque;
+    opacity: 0.6;
+}
+.team {
+    background-image:  linear-gradient(to bottom, rgba(0,0,0,0.5),rgba(100,100,100,0.5)),url(bg4.jpg);
+    min-height: 100vh;
+    margin: auto;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:0px;
+    min-height:100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 424px;
+    opacity: 0.6;
+}
+#third {
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    outline: 15px solid purple;
+    outline-offset: 10px;
+    background-color: rgba(100,100,100,1);
+    padding: 40px;
+    min-width:40%;
+    color:white;
+    letter-spacing:10px;
+    font-size: 40px;
+}
+.clarusway {
+    background-color: darkslategray;
+    color:azure;
+}
+footer {
+    background-image: url(bg.jpg);
+    height: 600px;
+    margin: auto;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+    margin-bottom:0px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#end {
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    outline: 15px solid purple;
+    outline-offset: 10px;
+    background-color: rgba(100,110,110,1);
+    padding: 40px;
+    min-width:50%;
+    color:white;
+    letter-spacing:10px;
+    font-size: 40px;
+}
+h2 {
+    font-size: 35px;
+}
+@media screen and (max-width:760px) {
+    body {
+        font-size: 20px;
+        padding: 25px;
+        line-height:25px;
+    }
+    article {
+        font-size: 25px;
+        padding: 25px;
+        letter-spacing: 1px;
+    }
+    div  {
+        font-size: 25px;
+    }
+    h1 {
+        line-height: 35px;
+    }
+    .way,.team {
+        line-height: 35px;
+    }
+    #first,#second,#third,#end {
+        width: 50%;
+        font-size: 26px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    img {
+        width: 80%;
+    }
+}
