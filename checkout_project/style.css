@@ -150,6 +150,7 @@ strong {
 .input-area select {
     border:none;
     outline:none;
+    
     width:70%;
     height:20px;
 }
