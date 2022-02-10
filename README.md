@@ -8,3 +8,4 @@
 6.[Flexbox&Media-query](https://anthonyharold67.github.io/my-projects/flexbox-mediaquery/)<br><br>
 7.[Parallax-web-sites](https://anthonyharold67.github.io/my-projects/parallax-web-sites/)<br><br>
 8.[checkout_project](https://anthonyharold67.github.io/my-projects/checkout_project/)<br><br>
+8.[exactAgeCalc](https://anthonyharold67.github.io/my-projects/exactAgeCalc/)<br><br>
