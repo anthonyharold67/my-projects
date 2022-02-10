@@ -22,16 +22,19 @@ function exactAgeCalc(){
     let year = new Date().getFullYear() - new Date(birthdayPicker.value).getFullYear();
     
     let months = new Date().getMonth()-new Date(birthdayPicker.value).getMonth();
+    let days = new Date().getDate()-new Date(birthdayPicker.value).getDate();
     if (days<0){
+        months -= 1;
         days +=31;
-        months--;
+        
     }
     if (months<0){
-        months +=12;
         year -= 1;
+        months +=12;
+        
     }
     months = (months<10) ? "0"+months : months;
-    let days = new Date().getDate()-new Date(birthdayPicker.value).getDate();
+    
     
     
     days = (days<10) ? "0"+days : days;
