@@ -14,27 +14,8 @@ guessNumber.addEventListener("change",myGuessNumber);
 guessCheck.addEventListener("click",myCounter);
 let num = Math.round(Math.random() * 100);
 let myArray = [];
-// let counter = 10;
 function myGuessNumber() {
     let guess = guessNumber.value;
-   /*  let text;
-    switch (guess){
-        case (guess== num):
-            text = `Conguralations on your win!`
-            result.innerHTML = text;
-            guessCheck.style.display = "none";
-            break;
-        case (guess<num):
-            text = `Enter the ${guess} between 100`;
-            result.innerHTML = text;
-        case (guess>num):
-            text = `Enter the 0 between ${guess}`;
-            result.innerHTML = text;
-        default:
-            text = "No value found";
-            result.innerHTML = text;
-    } */
-    
     myArray.push(guess);
     if (guess>100){
         alert("The number you entered must be between 1 and 100 please try again");
@@ -49,19 +30,15 @@ function myGuessNumber() {
         again.style.display ="block";
     }else if(guess<num){
         result.innerHTML = `Enter the ${guess} between 100`;
-        // myArray.push(guess);
-        // arr.innerHTML = myArray;
     }else if(guess>num){
         result.innerHTML = `Enter the 1 between ${guess}`;
-        // myArray.push(guess);
-        // arr.innerHTML = myArray;
     }
     
     arr.innerHTML = myArray;
     
 }
 
-let counter = 5;
+let counter = 10;
 function myCounter() {
     counter--;
     right.innerHTML = counter;
