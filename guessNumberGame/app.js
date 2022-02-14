@@ -14,6 +14,9 @@ guessNumber.addEventListener("change",myGuessNumber);
 guessCheck.addEventListener("click",myCounter);
 let num = Math.round(Math.random() * 100);
 let myArray = [];
+again.addEventListener("click", ()=>{
+    window.location.reload();
+})
 function myGuessNumber() {
     let guess = guessNumber.value;
     myArray.push(guess);
