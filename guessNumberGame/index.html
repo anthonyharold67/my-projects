@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <h1 id="result">Enter your guess!</h1>
+        <p>The number is 1 between 100!</p>
+    </header>
+    <div class="image">
+        <img src="https://c.tenor.com/D5PWQVpx-toAAAAM/game-over-dwayne-johnson.gif" alt="">
+    </div>
+    <div class="container">
+        <form action="">
+            <!-- <label for="guess">GUESS NUMBER GAME</label><br> -->
+            <input type="number" name="guesnum" id="guess" min="1" valid="none"><br>
+            <input type="button" value="CHECK" id="check"><br>
+            <button type="reset" id="reset">TRY AGAIN</button>
+            <button type="reset" id="again">AGAIN</button>
+        </form><br>
+    </div>
+    
+    <div class="content" id="footer">
+        <span>Your remaining trial right : </span><span id="right">5</span><br>
+        <span>The numbers you entered : </span><span id="arr"></span>
+    </div>
+    
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
