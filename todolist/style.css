@@ -140,3 +140,18 @@ i:hover{
 #date{
     letter-spacing:3px;
 }
+
+@media screen and (max-width: 992px){
+    .addTask,.tasks{
+        flex:35%;
+        width:80%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 600px) {
+    .addTask,.tasks{
+        flex:20%;
+        width:90%;
+        margin:auto;
+    }
+}
