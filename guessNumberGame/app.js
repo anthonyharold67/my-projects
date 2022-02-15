@@ -11,7 +11,7 @@ let images = document.querySelector(".image")
 let again = document.getElementById("again");
 again.style.display ="none";
 guessNumber.addEventListener("change",myGuessNumber);
-guessCheck.addEventListener("click",myCounter);
+
 let num = Math.round(Math.random() * 100);
 let myArray = [];
 again.addEventListener("click", ()=>{
@@ -23,20 +23,22 @@ function myGuessNumber() {
     if (guess>100){
         alert("The number you entered must be between 1 and 100 please try again");
         window.location.reload();
-    }else if(guess == num){
-        result.innerHTML = "Conguralations on your win!"
-        guessCheck.style.display = "none";
-        document.body.style.backgroundImage = "url('https://st3.depositphotos.com/5504648/13900/v/600/depositphotos_139000460-stock-illustration-congratulations-calligraphy-greeting-card.jpg')";
-        header.style.color = "black";
-        footer.style.color = "black";
-        footer.style.marginTop = "88px";
-        again.style.display ="block";
-    }else if(guess<num){
-        result.innerHTML = `Enter the ${guess} between 100`;
-    }else if(guess>num){
-        result.innerHTML = `Enter the 1 between ${guess}`;
+    }else{
+        guessCheck.addEventListener("click",myCounter);
+        if(guess == num){
+            result.innerHTML = "Conguralations on your win!"
+            guessCheck.style.display = "none";
+            document.body.style.backgroundImage = "url('https://st3.depositphotos.com/5504648/13900/v/600/depositphotos_139000460-stock-illustration-congratulations-calligraphy-greeting-card.jpg')";
+            header.style.color = "black";
+            footer.style.color = "black";
+            footer.style.marginTop = "88px";
+            again.style.display ="block";
+        }else if(guess<num){
+            result.innerHTML = `Enter the ${guess} between 100`;
+        }else if(guess>num){
+            result.innerHTML = `Enter the 1 between ${guess}`;
+        }
     }
-    
     arr.innerHTML = myArray;
     
 }
