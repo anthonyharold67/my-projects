@@ -1,0 +1,142 @@
+*{
+    font-family: "Niramit", sans-serif;
+    background-color: bisque;
+}
+
+.header {
+    text-align: center;
+    margin-top:100px;
+    letter-spacing:5px;
+}
+
+.addTask{
+    background: none;
+    display: flex;
+    position: relative;
+    align-items:center;
+    justify-content: center;
+    margin: auto;
+    border:3px solid;
+    border-radius: 13px;
+    flex:50%;
+    width: 700px;
+
+
+}
+
+.addTask input{
+    font-weight : bold;
+    width: 700px;
+    height: 45px;
+    border:none;
+    outline:none;
+    font-size: 1.2rem;
+    color: orangered
+    
+}
+
+
+.addTask span{
+    margin-left: 20%;
+    font-size: 150%;
+    background: orangered;
+    color: white;
+    font-weight: 900;
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    border: 1px solid black;
+        
+}
+.addTask span:hover{
+    box-shadow: 0 0 10px tomato;
+}
+
+
+.tasks{
+    background-color: none;
+    display: block;
+    position: relative;
+    align-items:center;
+    justify-content: center;
+    margin: auto;
+    flex:50%;
+    width: 650px;
+    
+}
+#head{
+    background-color:orangered;
+    margin-left:6%;
+    color:white;
+    letter-spacing: 5px;
+}
+
+
+.tasks ul li{
+    list-style: none;
+    width: 100%;
+    margin: auto;
+    font-size: 115%;
+    border: 1px solid;
+    padding: 8px 5px 2px 3px;
+    color:orangered;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+.tasks small{
+    background-color: orangered;
+    float: right;
+    color:white;
+    font-weight: bold;
+}
+input[type="checkbox"]{
+    padding: 5px 9px;
+    border-radius: 40px;
+    height: 25px;
+    width: 25px;
+}
+.tasks input:checked {
+    box-shadow: 0 0 0 3px orangered;
+    
+  }
+input[type="checkbox"]:checked + span{
+    text-decoration:line-through;
+}
+
+input[type="checkbox"]:checked + span small{
+    text-decoration:line-through
+}
+i{
+    float: left;
+    color: white;
+    background-color:orangered;
+    font-weight: 300;
+    padding: 5px 9px;
+    border-radius: 40px;
+}
+ 
+i:hover{
+    color: black;
+    transition: .3s all;
+    cursor: pointer;
+}
+#resets{
+    border:none;
+    outline:none;
+    background-color:bisque;
+}
+#reset {
+    background-color: orangered;
+    color:white;
+    font-weight:bold;
+    width: 90px;
+    height:45px;
+    border-radius: 55px;
+}
+
+#date{
+    letter-spacing:3px;
+}
