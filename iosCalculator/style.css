@@ -105,10 +105,14 @@ button:hover{
 @media screen and (max-width:992px) {
     button,.result {
         font-size: 1.5rem;
+        
+    }
+    .container {
+        height: auto;
     }
     .result {
-        right:0;
-        width:100%;
+        margin-right:50%;
+        width:45%;
     }
 }
 @media screen and (max-width:768px) {
@@ -116,9 +120,8 @@ button:hover{
         font-size: 1rem;
     }
     .result {
-        /* right:0; */
-        width:100%;
-        margin-right:10px;
+        width:50%;
+        margin-right:30%;
     }
 }
 @media screen and (max-width:600px) {
@@ -126,7 +129,16 @@ button:hover{
         font-size: 15px;
     }
     .result {
-        margin-right:60px;
+        margin-right:40%;
+        width:30%;
+    }
+}
+@media screen and (max-width:400px) {
+    button,.result {
+        font-size: 15px;
+    }
+    .result {
+        margin-right:60%;
         width:30%;
     }
 }

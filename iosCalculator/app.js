@@ -37,7 +37,7 @@ let b="";
 let total ="";
 
 resetButton.addEventListener("click",()=>{
-    location.reload();
+    result.innerHTML="0";
 })
 for(let i=0;i<math.length;i++){
     math[i].addEventListener("click",()=>{
@@ -86,7 +86,6 @@ function myFunction2(e){
         myDel();
     }
     
-    
 }
 let myPlusMinus = ()=>{
     a = -1*a;
@@ -130,8 +129,4 @@ let myDel = () =>{
     result.innerHTML=a;
     delButton.style.display ="none";
     resetButton.style.display ="inline";
-}
-let myFunctionReload = () =>{
-    a=0;
-    b=a;
 }
