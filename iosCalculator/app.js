@@ -14,6 +14,7 @@ let number = document.getElementsByClassName("number");
 let resetButton = document.querySelector(".reset");
 let delButton = document.querySelector(".del");
 let plusMinus = document.querySelector(".plus-minus");
+let math = document.getElementsByClassName("math");
 delButton.style.display ="none";
 
 
@@ -38,7 +39,12 @@ let total ="";
 resetButton.addEventListener("click",()=>{
     location.reload();
 })
-
+for(let i=0;i<math.length;i++){
+    math[i].addEventListener("click",()=>{
+        math[i].style.backgroundColor="azure";
+        math[i].style.color="black";
+    })
+}
 for(let i=0; i<operator.length; i++){
     operator[i].addEventListener("click",myFunction2)
 }
@@ -54,6 +60,16 @@ function myFunction2(e){
         x = "/";
     }else if(e.target.innerHTML == "="){
         myCalculator();
+        for(let i=0;i<math.length;i++){
+            if(i!=0){
+                math[i].style.backgroundColor="#FFA000";
+                math[i].style.color="white";
+            }else{
+                math[0].style.backgroundColor="#BDBDBD";
+                math[0].style.color="black";
+            }
+            
+        }
     }else if (e.target.innerHTML == "+"){
         myFunction();
         x = "+";
@@ -80,7 +96,7 @@ let myPlusMinus = ()=>{
 function myFunction(){
     b = a;
     a="";
-    result.innerHTML="";
+    result.innerHTML=b;
 }
 
 function myCalculator(){
@@ -116,5 +132,6 @@ let myDel = () =>{
     resetButton.style.display ="inline";
 }
 let myFunctionReload = () =>{
-    location.reload();
+    a=0;
+    b=a;
 }
