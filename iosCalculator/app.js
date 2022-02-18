@@ -23,7 +23,7 @@ for(let i=0; i<number.length; i++){
     number[i].addEventListener("click", (e) => {
         delButton.style.display ="inline";
         resetButton.style.display ="none";
-        result.style.fontSize="2.5rem";
+        
         if(e.target.innerHTML==","){
             a +=".";
         }else{
@@ -38,6 +38,7 @@ let b="";
 let total ="";
 
 resetButton.addEventListener("click",()=>{
+    result.style.fontSize="2.5rem";
     result.innerHTML="0";
 })
 for(let i=0;i<math.length;i++){
