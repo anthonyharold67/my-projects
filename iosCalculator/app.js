@@ -126,6 +126,7 @@ function myCalculator(){
         result.innerHTML=total;
     }else{
         result.innerHTML=total;
+        result.style.fontSize="2.5rem";
     }
 }
 
