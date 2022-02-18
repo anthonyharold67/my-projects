@@ -121,6 +121,12 @@ function myCalculator(){
         total = (+b) * (+a);
         result.innerHTML=total;
     }
+    if(total.toString().length>12){
+        result.style.fontSize="1.5rem";
+        result.innerHTML=total;
+    }else{
+        result.innerHTML=total;
+    }
 }
 
 
