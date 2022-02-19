@@ -82,8 +82,8 @@ function myFunction2(e){
         myFunction();
         x = "*";
     }else if(e.target.innerHTML == "%"){
-        myFunction();
-        x ="%";
+        mypercent();
+        // x ="%";
     }else if(e.target.innerHTML =="C"){
         myDel();
     }
@@ -116,10 +116,10 @@ function myCalculator(){
     }else if(x =="-"){
         total = (+b) - (+a);
         result.innerHTML=total;
-    }else if(x =="%"){
+    }/* else if(x =="%"){
         total = ((+b) /100)*(+a);
         result.innerHTML=total;
-    }else if(x =="*"){
+    }*/else if(x =="*"){
         total = (+b) * (+a);
         result.innerHTML=total;
     }
@@ -130,8 +130,16 @@ function myCalculator(){
         result.innerHTML=total;
         result.style.fontSize="2.5rem";
     }
+    a=total;
 }
 
+let mypercent = ()=>{
+    total = a /100;
+    a=total;
+    result.innerHTML=total;
+    math[0].style.backgroundColor="#BDBDBD";
+    math[0].style.color="black";
+}
 
 let myDel = () =>{
     a = "";

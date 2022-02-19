@@ -1,9 +1,10 @@
-let guessNumber = document.querySelector("input[type=number]");
-let guessCheck = document.querySelector("input[type=button]");
+let guessNumber = document.querySelector("input[type=text]");
+let guessCheck = document.querySelector("#check");
 let result = document.getElementById("result");
 let right = document.getElementById("right");
 let arr = document.getElementById("arr");
 let tryAgain = document.getElementById("reset");
+const form = document.querySelector("#form");
 tryAgain.style.display ="none";
 let headerColor = document.getElementById("header");
 let footerColor = document.getElementById("footer");
@@ -17,14 +18,19 @@ let myArray = [];
 again.addEventListener("click", ()=>{
     window.location.reload();
 })
+guessCheck.addEventListener("click",(e)=>{
+    e.preventDefault();
+    myCounter(e);
+    form.reset();
+});
 function myGuessNumber() {
     let guess = guessNumber.value;
     myArray.push(guess);
-    if (guess>100){
-        alert("The number you entered must be between 1 and 100 please try again");
-        window.location.reload();
+    
+    if (guess>100 || guess<0 || isNaN(guess)) {
+        result.innerHTML = "The number you entered must be between 1 and 100 please try again";
     }else{
-        guessCheck.addEventListener("click",myCounter);
+        
         if(guess == num){
             result.innerHTML = "Conguralations on your win!"
             guessCheck.style.display = "none";
@@ -40,6 +46,7 @@ function myGuessNumber() {
         }
     }
     arr.innerHTML = myArray;
+    guessNumber.value = "";
     
 }
 
@@ -53,7 +60,6 @@ function myCounter() {
         tryAgain.style.display= "inline";
         images.style.display="flex";
     }
-
 }
 tryAgain.addEventListener("click",()=>{
     window.location.reload();
