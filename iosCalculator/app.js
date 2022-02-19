@@ -38,7 +38,7 @@ let b="";
 let total ="";
 
 resetButton.addEventListener("click",()=>{
-    result.style.fontSize="2.5rem";
+    result.style.fontSize="3vw";
     result.innerHTML="0";
 })
 for(let i=0;i<math.length;i++){
@@ -46,10 +46,10 @@ for(let i=0;i<math.length;i++){
         math[i].style.backgroundColor="azure";
         math[i].style.color="black";
     })
-}
+};
 for(let i=0; i<operator.length; i++){
     operator[i].addEventListener("click",myFunction2)
-}
+};
 let x = "";
 function myFunction2(e){
     if(e.target.innerHTML=="±"){
@@ -83,7 +83,6 @@ function myFunction2(e){
         x = "*";
     }else if(e.target.innerHTML == "%"){
         mypercent();
-        // x ="%";
     }else if(e.target.innerHTML =="C"){
         myDel();
     }
@@ -116,19 +115,16 @@ function myCalculator(){
     }else if(x =="-"){
         total = (+b) - (+a);
         result.innerHTML=total;
-    }/* else if(x =="%"){
-        total = ((+b) /100)*(+a);
-        result.innerHTML=total;
-    }*/else if(x =="*"){
+    }else if(x =="*"){
         total = (+b) * (+a);
         result.innerHTML=total;
     }
     if(total.toString().length>12){
-        result.style.fontSize="1.5rem";
+        result.style.fontSize="2vw";
         result.innerHTML=total;
     }else{
         result.innerHTML=total;
-        result.style.fontSize="2.5rem";
+        result.style.fontSize="3vw";
     }
     a=total;
 }

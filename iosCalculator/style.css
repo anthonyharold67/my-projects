@@ -112,7 +112,7 @@ button:hover{
     }
     .result {
         margin-right:50%;
-        width:45%;
+        width:85%;
     }
 }
 @media screen and (max-width:768px) {
@@ -120,22 +120,22 @@ button:hover{
         font-size: 1rem;
     }
     .result {
-        width:50%;
+        width:70%;
         margin-right:30%;
     }
 }
 @media screen and (max-width:600px) {
     button,.result {
-        font-size: 15px;
+        font-size: 1rem;
     }
     .result {
         margin-right:40%;
-        width:30%;
+        width:50%;
     }
 }
 @media screen and (max-width:400px) {
     button,.result {
-        font-size: 15px;
+        font-size: 1rem;
     }
     .result {
         margin-right:60%;
