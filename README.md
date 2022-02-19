@@ -1,16 +1,15 @@
 ### You can check out my projects here!
-1.[google_beta-clone-project](https://anthonyharold67.github.io/my-projects/google-beta98-clone/)
-
-2.[my_first_bootstrap-project](https://anthonyharold67.github.io/my-projects/my_first_bootstrap-project/)
-3.[web_design](https://anthonyharold67.github.io/my-projects/web_design/)
-4.[aracım.com](https://anthonyharold67.github.io/my-projects/aracımcom_project/)
-5.[Google-Landing Page](https://anthonyharold67.github.io/my-projects/google-landing/)
-6.[Flexbox&Media-query](https://anthonyharold67.github.io/my-projects/flexbox-mediaquery/)<br><br>
-7.[Parallax-web-sites](https://anthonyharold67.github.io/my-projects/parallax-web-sites/)<br><br>
-8.[checkout_project](https://anthonyharold67.github.io/my-projects/checkout_project/)<br><br>
-9.[exactAgeCalc](https://anthonyharold67.github.io/my-projects/exactAgeCalc/)<br><br>
-10.[Grid Project](https://anthonyharold67.github.io/my-projects/grid-project/)<br><br>
-11.[guessNumberGame](https://anthonyharold67.github.io/my-projects/guessNumberGame/)<br><br>
-12.[TODO-LIST](https://anthonyharold67.github.io/my-projects/todolist/)<br><br>
-13.[LOTTERY NUMBER GAME](https://anthonyharold67.github.io/my-projects/lotteryGame/)<br><br>
-14.[ios CALCULATOR](https://anthonyharold67.github.io/my-projects/iosCalculator/)<br><br>
+**->**[google_beta-clone-project](https://anthonyharold67.github.io/my-projects/google-beta98-clone/)
+**->**[my_first_bootstrap-project](https://anthonyharold67.github.io/my-projects/my_first_bootstrap-project/)
+**->**[web_design](https://anthonyharold67.github.io/my-projects/web_design/)
+**->**[aracım.com](https://anthonyharold67.github.io/my-projects/aracımcom_project/)<br><br>
+**->**[Google-Landing Page](https://anthonyharold67.github.io/my-projects/google-landing/)
+**->**[Flexbox&Media-query](https://anthonyharold67.github.io/my-projects/flexbox-mediaquery/)
+**->**[Parallax-web-sites](https://anthonyharold67.github.io/my-projects/parallax-web-sites/)
+**->**[checkout_project](https://anthonyharold67.github.io/my-projects/checkout_project/)<br><br>
+**->**[exactAgeCalc](https://anthonyharold67.github.io/my-projects/exactAgeCalc/)
+**->**[Grid Project](https://anthonyharold67.github.io/my-projects/grid-project/)
+**->**[guessNumberGame](https://anthonyharold67.github.io/my-projects/guessNumberGame/
+**->**[TODO-LIST](https://anthonyharold67.github.io/my-projects/todolist/)<br><br>
+**->**[LOTTERY NUMBER GAME](https://anthonyharold67.github.io/my-projects/lotteryGame/)
+**->**[ios CALCULATOR](https://anthonyharold67.github.io/my-projects/iosCalculator/)
