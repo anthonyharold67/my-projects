@@ -1,5 +1,6 @@
-### You can check out my projects here!{style='color: red;'}
-**-** [google_beta-clone-project](https://anthonyharold67.github.io/my-projects/google-beta98-clone/){style='color: red;'}
+<style> body { color: red; }</style>
+### You can check out my projects here!
+**-** [google_beta-clone-project](https://anthonyharold67.github.io/my-projects/google-beta98-clone/)
 **-** [my_first_bootstrap-project](https://anthonyharold67.github.io/my-projects/my_first_bootstrap-project/)
 **-** [web_design](https://anthonyharold67.github.io/my-projects/web_design/)
 **-** [aracım.com](https://anthonyharold67.github.io/my-projects/aracımcom_project/)<br><br>
