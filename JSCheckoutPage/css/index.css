@@ -379,25 +379,27 @@ p {
   }
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 898px) {
   main {
-    grid-template-columns: 100%;
+    /* grid-template-columns: 100%; */
     width: 90%;
-    grid-template-rows: 400px 1fr;
-    grid-template-areas: "top" "bottom";
+    display: block;
+    /* grid-template-rows: 400px 400px;
+    grid-template-areas: "top" "bottom"; */
   }
   main form {
     width: 85% !important;
     left: 0;
+    display: block;
     transform: unset;
     margin-right: 0 !important;
   }
-  form {
+  /* form {
     grid-area: bottom;
-  }
+  } */
   #products-preview {
     width: 100%;
-    grid-area: top;
+    /* grid-area: top; */
   }
   #product-painel {
     padding: 0;
