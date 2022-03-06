@@ -31,7 +31,6 @@ function exactPomodorCalc(e){
         counter1++;
         minutes=00;
         seconds=00;
-        console.log("counter",counter)
         if(counter<4){
             pomodoro.innerHTML =`<p>${counter}.step is over.5 minutes of break!</p>`;
         }else{
@@ -73,12 +72,11 @@ function exactPomodorCalc(e){
 
 btnAgain.addEventListener("click",()=>{
     counter=0;
-    seconds = 57;
-    minutes = 24;
+    counter1=0;
+    seconds = 00;
+    minutes = 00;
     btnAgain.style.display = "none";
     btn.style.display = "inline";
     pomodoro.innerHTML ="";
     exactPomodorCalc();
 });
-
-
