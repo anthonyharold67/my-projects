@@ -39,18 +39,20 @@ function exactPomodorCalc(e){
         }      
     }
     if(minutes==5 && 2>counter>=1 && counter1==1){
+        counter1++;
         audio2.play();
         pomodoro.innerHTML =`<p>${counter+1}.step started!</p>`;
         minutes=00;
         seconds =00;
     }
-    if(minutes==5 && counter==2 && counter1==2){
+    if(minutes==5 && counter==2 && counter1==3){
+        counter1++;
         audio2.play();
         pomodoro.innerHTML =`<p>${counter+1}.step started!</p>`;
         minutes=00;
         seconds =00;
     }
-    if(minutes==5 && counter==3 && counter1==3){
+    if(minutes==5 && counter==3 && counter1==5){
         audio2.play();
         pomodoro.innerHTML =`<p>${counter+1}.step started!</p>`;
         minutes=00;
