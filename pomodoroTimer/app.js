@@ -40,11 +40,9 @@ function exactPomodorCalc(e){
     }
     if(minutes==5 && 2>counter>=1 && counter1==1){
         audio2.play();
-        console.log("merhaba");
         pomodoro.innerHTML =`<p>${counter+1}.step started!</p>`;
         minutes=00;
         seconds =00;
-        console.log(counter1);
     }
     if(minutes==5 && counter==2 && counter1==2){
         audio2.play();
