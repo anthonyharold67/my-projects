@@ -44,7 +44,6 @@ function exactPomodorCalc(e){
         pomodoro.innerHTML =`<p>${counter+1}.step started!</p>`;
         minutes=00;
         seconds =00;
-        counter1++;
         console.log(counter1);
     }
     if(minutes==5 && counter==2 && counter1==2){
@@ -52,14 +51,12 @@ function exactPomodorCalc(e){
         pomodoro.innerHTML =`<p>${counter+1}.step started!</p>`;
         minutes=00;
         seconds =00;
-        counter1++;
     }
     if(minutes==5 && counter==3 && counter1==3){
         audio2.play();
         pomodoro.innerHTML =`<p>${counter+1}.step started!</p>`;
         minutes=00;
         seconds =00;
-        counter1++;
     }
     
     if(counter == 4){
