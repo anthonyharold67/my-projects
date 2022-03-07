@@ -16,4 +16,4 @@
 **14.**  [ios CALCULATOR](https://anthonyharold67.github.io/my-projects/iosCalculator/)
 **15.**  [JS Checkout Page](https://anthonyharold67.github.io/my-projects/JSCheckoutPage/)
 **16.**  [Pomodoro Timer](https://anthonyharold67.github.io/my-projects/pomodoroTimer/)<br><br>
-
+**17.**  [DIGITAL CLOCK](https://anthonyharold67.github.io/my-projects/digitalClock/)
