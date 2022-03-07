@@ -1,0 +1,68 @@
+body{
+    background-color: darkblue;
+    color:yellow;
+    font-family: 'Syne Mono', monospace;
+    box-sizing: border-box;
+}
+title {
+    color: white;
+    letter-spacing:5px;
+}
+#date{
+    float:right;
+    margin-right:2rem;
+    font-size:3rem;
+    letter-spacing: 2px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:8rem;
+    min-width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+#minute,#hour,#second{
+    border: 15px dotted;
+    outline: none;
+    padding:5px;
+    margin:5px; 
+}
+
+#second{
+    font-size:5rem;
+    margin-left:25px;
+}
+#colon{
+    margin:0;
+    padding:0;
+}
+#colon {
+    animation: blinker 1s linear infinite;
+    animation-duration: 1s;
+}
+@keyframes blinker {  
+    60% { opacity: 0; }
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    color: yellow;
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+}
+@media screen and (max-width:666px){
+    .container {
+        font-size:4rem;
+    }
+    #second{
+        font-size:2rem;
+        margin-left:25px;
+    }
+
+}
