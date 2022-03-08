@@ -8,7 +8,6 @@ const döviz = async ()=>{
     `;
     
     document.getElementById("döviz").innerHTML = newArea;
-    // console.log("merhaba");
     let degisim =document.querySelectorAll(".degisim");
     let number = degisim[0].textContent.replace(",",".").replace("%","");
     degisim.forEach((i)=>{
@@ -17,7 +16,8 @@ const döviz = async ()=>{
         }else{
             i.style.color= "red";
         }
-    })
+    });
+    document.getElementById("header").innerHTML = "Güncellenme Tarihi: " + text.Update_Date;
     document.getElementById("calc").addEventListener("click",()=>{
     let miktar= document.getElementById("miktar").value;
     let dolarPrice = text.USD.Alış.replace(",",".");
