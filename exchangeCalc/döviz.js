@@ -9,8 +9,8 @@ const döviz = async ()=>{
     
     document.getElementById("döviz").innerHTML = newArea;
     let degisim =document.querySelectorAll(".degisim");
-    let number = degisim[0].textContent.replace(",",".").replace("%","");
-    degisim.forEach((i)=>{
+    degisim.forEach((i,index)=>{
+        let number = degisim[index].textContent.replace(",",".").replace("%","");
         if(number>0){
             i.style.color= "green";
         }else{
