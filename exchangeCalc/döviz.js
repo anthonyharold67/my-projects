@@ -32,20 +32,20 @@ const döviz = async ()=>{
     if(usd.checked) {
         let result = +(dolarPrice) * +(miktar);
         let resultS = +(dolarS) * +(miktar);
-        document.getElementById("sonuc").innerHTML= `${miktar} Adet USD Alış Fiyatı : ${result.toFixed(2)}₺
-        <br>${miktar} Adet USD Satış Fiyatı : ${resultS.toFixed(2)}₺
+        document.getElementById("sonuc").innerHTML= `${miktar} USD Alış Fiyatı : ${result.toFixed(2)}₺
+        <br>${miktar} USD Satış Fiyatı : ${resultS.toFixed(2)}₺
         `;
     }else if(euro.checked){
         let result = +(euroPrice) * +(miktar);
         let resultS = +(euroS) * +(miktar);
-        document.getElementById("sonuc").innerHTML=`${miktar} Adet Euro Alış Fiyatı : ${result.toFixed(2)}₺
-        <br>${miktar} Adet Euro Satış Fiyatı : ${resultS.toFixed(2)}₺
+        document.getElementById("sonuc").innerHTML=`${miktar} Euro Alış Fiyatı : ${result.toFixed(2)}₺
+        <br>${miktar} Euro Satış Fiyatı : ${resultS.toFixed(2)}₺
         `;
     }else if(altin.checked) {
         let result = +(altinPrice) * +(miktar);
         let resultS = +(altinS) * +(miktar);
-        document.getElementById("sonuc").innerHTML= `${miktar} Adet Gram Altın Alış Fiyatı : ${result.toFixed(2)}₺
-        <br>${miktar} Adet Gram Altın Satış Fiyatı : ${resultS.toFixed(2)}₺
+        document.getElementById("sonuc").innerHTML= `${miktar} Gram Altın Alış Fiyatı : ${result.toFixed(2)}₺
+        <br>${miktar} Gram Altın Satış Fiyatı : ${resultS.toFixed(2)}₺
         ` ;
     }
     
