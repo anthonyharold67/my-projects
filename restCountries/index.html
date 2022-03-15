@@ -22,29 +22,33 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col col-md-4" id="head">
-            <h4 class="h1 mb-5">Rest Countries API</h4>
-            <p>Get information about countries via a RESTful API</p>
+    <div class="container">
+      <div class="row">
+        <header>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col col-md-4" id="head">
+                <h4 class="h1 mb-5">Rest Countries API</h4>
+                <p>Get information about countries via a RESTful API</p>
+              </div>
+            </div>
           </div>
-        </div>
+          <div class="container input-section">
+            <form class="row justify-content-center" id="form">
+              <div class="col col-sm-9 col-md-4 col-lg-2 align-self-center">
+                <input id="input" type="text" placeholder="Enter the country name..."/>
+              </div>
+              <div class="col col-sm-1 col-md-2 align-self-center">
+                <button id="search" class="btn btn-danger">Search</button>
+              </div>
+            </form>
+          </div>
+        </header>
+        <main>
+          
+        </main>
       </div>
-      <div class="container input-section">
-        <form class="row justify-content-center" id="form">
-          <div class="col col-sm-9 col-md-4 col-lg-2 align-self-center">
-            <input id="input" type="text" placeholder="Enter the country name..."/>
-          </div>
-          <div class="col col-sm-1 col-md-2 align-self-center">
-            <button id="search" class="btn btn-danger">Search</button>
-          </div>
-        </form>
-      </div>
-    </header>
-    <main>
-      
-    </main>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
