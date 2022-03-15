@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOPWATCH</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h4 id="date"></h4>
+    </header>
+    <main >
+        <article class="time container">
+            <h1 id="times"><span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span>:<span id="millisecond">00</span></h1>
+        </article>
+    </main>
+    <article id="start-stop">
+        <button class="start">
+            <i class="fa-solid fa-play"></i>
+        </button>
+        <button class="stop">
+            <i class="fa-solid fa-pause"></i>
+        </button>
+        <button class="finish">
+            <i class="fa-solid fa-stop"></i>
+        </button>
+    </article>
+    </section>
+    <article id="liste">
+        <ul id="ul">
+        </ul>
+    </article>
+    <footer id="footer">
+        <p>Developed by Anthony HAROLD <small>Copyright © 2022</small></p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
