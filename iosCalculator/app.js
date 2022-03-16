@@ -24,9 +24,9 @@ for(let i=0; i<number.length; i++){
         delButton.style.display ="inline";
         resetButton.style.display ="none";
         
-        if(e.target.innerHTML==","){
+        if(e.target.innerHTML=="," && a.indexOf(".")==-1){
             a +=".";
-        }else{
+        }else if(e.target.innerHTML!=","){
             a += e.target.innerHTML;
         }
         
