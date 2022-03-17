@@ -38,7 +38,7 @@ const getWeatherDataFromApi = async() =>{
             if(cityCardListArray.length > 0){
                 const filteredArray = cityCardListArray.filter(card => card.querySelector(".city-name span").innerText == name);
                 if(filteredArray.length > 0){
-                    msg.innerText = `You already know the weather for ${name}, Please search for another city 😉`;
+                    msg.innerText = `turkish.checked ? "${name} şehrinin hava durumu bilgilerine sahipsiniz.Lütfe başka bir şehir arayın😉":"You already know the weather for ${name}, Please search for another city 😉"`;
                     setTimeout(()=>{
                         msg.innerText = "";
                     }, 5000);
