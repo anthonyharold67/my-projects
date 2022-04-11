@@ -23,3 +23,4 @@
 **21.**  [STOPWATCH](https://anthonyharold67.github.io/my-projects/stopwatch/)
 **22.**  [SPEECH TO TEXT](https://anthonyharold67.github.io/my-projects/speechToText/)
 **23.**  [WEATHER APP](https://anthonyharold67.github.io/my-projects/weatherApp)
+**23.**  [WEATHER APP](https://anthonyharold67.github.io/my-projects/weatherApp)
