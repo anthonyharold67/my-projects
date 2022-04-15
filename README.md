@@ -1,4 +1,4 @@
-#- You can check out my projects here!
+# You can check out my projects here!
 
 <table >
   <tr>
