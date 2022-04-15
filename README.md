@@ -53,7 +53,7 @@
     
   </tr>
   <tr>
-    <td></td>
+    <td><a href="https://anthonyharold67.github.io/Clarusway-HTML-CSS-Projects/netflix/" target="_blank">Netflix SignUp Clone</a></td>
     <td><a href="https://anthonyharold67.github.io/my-projects/movieSeatApp/" target="_blank">Movie Seat App</a></td>
   </tr>
   <tr>
