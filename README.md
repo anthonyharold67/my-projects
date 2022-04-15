@@ -44,7 +44,7 @@
     <td><a href="https://anthonyharold67.github.io/my-projects/pomodoroTimer/">Pomodoro Timer</a></td>
   </tr>
   <tr>
-    
+    <td></td>
     <td><a href="https://anthonyharold67.github.io/my-projects/exchangeCalc/">Exchange Calculator</a></td>
     
   </tr>
