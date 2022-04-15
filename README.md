@@ -9,7 +9,7 @@
       <th>JS-HTML-CSS PROJECTS</th>  
   </tr>
   <tr>
-    <td><a href="https://anthonyharold67.github.io/my-projects/google-beta98-clone/" target="_blank">Google Beta Clone</a></td>
+    <td><a href="https://anthonyharold67.github.io/my-projects/google-beta98-clone/" target="_blank" rel="noreferrer">Google Beta Clone</a></td>
     <td><a href="https://anthonyharold67.github.io/my-projects/exactAgeCalc/" target="_blank">Exact Age Calc Project</a></td>
   </tr>
   <tr>
