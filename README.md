@@ -1,10 +1,4 @@
-# You can check out my projects here!
-```diff
-- text in red
-+ You can check out my projects here!
-! text in orange
-# text in gray
-```
+#- You can check out my projects here!
 
 <table >
   <tr>
