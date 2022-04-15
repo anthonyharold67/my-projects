@@ -32,4 +32,16 @@
   <tr>
     <td><a href="https://anthonyharold67.github.io/my-projects/google-beta98-clone/">Google Beta Clone</a></td>
   </tr>
+  <tr>
+    <td><a href="https://anthonyharold67.github.io/my-projects/my_first_bootstrap-project/">My First Bootstrap Project</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://anthonyharold67.github.io/my-projects/web_design/">Web Design</a></td>
+  </tr>
+  <tr>
+    <td><a href="(https://anthonyharold67.github.io/my-projects/aracımcom_project/">aracım.com</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://anthonyharold67.github.io/my-projects/google-landing/">Google Landing Page</a></td>
+  </tr>
 </table>
