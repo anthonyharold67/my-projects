@@ -1,5 +1,5 @@
 
-<table style="align-items:center">
+<table style="color:red;">
   <tr>
       <th>HTML-CSS PROJECTS</th>
       <th>JS-HTML-CSS PROJECTS</th>  
