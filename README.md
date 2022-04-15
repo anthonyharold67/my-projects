@@ -39,7 +39,7 @@
     <td><a href="https://anthonyharold67.github.io/my-projects/web_design/">Web Design</a></td>
   </tr>
   <tr>
-    <td><a href="(https://anthonyharold67.github.io/my-projects/aracımcom_project/">Aracımcom</a></td>
+    <td><a href="https://anthonyharold67.github.io/my-projects/aracımcom_project/">aracım.com</a></td>
   </tr>
   <tr>
     <td><a href="https://anthonyharold67.github.io/my-projects/google-landing/">Google Landing Page</a></td>
