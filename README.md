@@ -1,7 +1,9 @@
 # You can check out my projects here!
 
 <table >
-  <caption>My Projectss</caption>
+  <tr>
+      <th colspan="2">MY PROJECTS</th>
+  </tr>
   <tr>
       <th >HTML-CSS PROJECTS</th>
       <th>JS-HTML-CSS PROJECTS</th>  
