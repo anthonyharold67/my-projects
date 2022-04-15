@@ -1,7 +1,8 @@
 # You can check out my projects here!
+This is *red*{: style='color: red'}.
 <table >
   <tr>
-      <th style="color:blue">HTML-CSS PROJECTS</th>
+      <th >HTML-CSS PROJECTS</th>
       <th>JS-HTML-CSS PROJECTS</th>  
   </tr>
   <tr>
