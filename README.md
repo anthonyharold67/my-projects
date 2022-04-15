@@ -1,14 +1,15 @@
 # You can check out my projects here!
 ```diff
 - text in red
-+ text in green
++ You can check out my projects here!
 ! text in orange
 # text in gray
+```
 
 <table >
   <tr>
-      -<th >HTML-CSS PROJECTS</th>
-      -<th>JS-HTML-CSS PROJECTS</th>  
+      <th >HTML-CSS PROJECTS</th>
+      <th>JS-HTML-CSS PROJECTS</th>  
   </tr>
   <tr>
     <td><a href="https://anthonyharold67.github.io/my-projects/google-beta98-clone/">Google Beta Clone</a></td>
@@ -73,4 +74,4 @@
     
 
 </table>
-```
+
