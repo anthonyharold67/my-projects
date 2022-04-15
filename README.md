@@ -26,6 +26,10 @@
 **23.**  [WEATHER APP](https://anthonyharold67.github.io/my-projects/weatherApp)
 <table>
   <tr>
-      <th>Html</>
+      <th>HTML-CSS PROJECTS</th>
+      <th>JS-HTML-CSS PROJECTS</th>  
+  </tr>
+  <tr>
+    <td>[google_beta-clone-project](https://anthonyharold67.github.io/my-projects/google-beta98-clone/)</td>
   </tr>
 </table>
