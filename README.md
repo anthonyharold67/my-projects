@@ -1,5 +1,5 @@
-
-<table style="color:red;">
+                                         ### You can check out my projects here!
+<table >
   <tr>
       <th>HTML-CSS PROJECTS</th>
       <th>JS-HTML-CSS PROJECTS</th>  
