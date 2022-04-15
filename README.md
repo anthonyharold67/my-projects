@@ -1,5 +1,6 @@
 # You can check out my projects here!
 This is *red*{: style='color: red'}.
+<font color="green"> Some green text </font>
 <table >
   <tr>
       <th >HTML-CSS PROJECTS</th>
