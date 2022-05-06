@@ -57,7 +57,7 @@
     <td><a href="https://anthonyharold67.github.io/my-projects/movieSeatApp/" target="_blank">Movie Seat App</a></td>
   </tr>
   <tr>
-    <td></td>
+    <td><a href="https://anthonyharold67.github.io/my-projects/sass-portfolio/" target="_blank">Portfolio with Sass</a></td>
     <td><a href="https://anthonyharold67.github.io/my-projects/restCountries/" target="_blank">Rest Countries API</a></td>
   </tr>
   <tr>
