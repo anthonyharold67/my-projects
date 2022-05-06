@@ -7,6 +7,7 @@
     <title>Google Landing Page</title>
     <link rel="shortcut icon" href="./images/Google-favicon-2015.png">
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <!--Header-->
@@ -26,15 +27,17 @@
     <!--Main-->
     <main class="main">
         <img src="./images/googlelogo.png" alt="logo" class="main__logo">
-        <div class="main__search-bar">
-            <img src="./images/magnifying_glass.jpg" alt="" class="main__search-bar--magnifier">
-            <input type="search" class="main__search-bar--input">
-            <a href=""><img src="./images/google_microphone.png" alt="microphone" class="main__search-bar--microphone"></a>
-        </div>
-        <div class="main__buttons">
-            <button class="main__button--left">Google Search</button>
-            <button class="main__button-right">I'm Feeling Lucky</button>
-        </div>
+        <form>
+            <div class="main__search-bar">
+                <img src="./images/magnifying_glass.jpg" alt="" class="main__search-bar--magnifier">
+                <input type="search" class="main__search-bar--input" id="form-search">
+                <a href=""><img src="./images/google_microphone.png" alt="microphone" class="main__search-bar--microphone"></a>
+            </div>
+            <div class="main__buttons">
+                <button id="searchBtn" class="main__button--left">Google Search</button>
+                <button class="main__button-right">I'm Feeling Lucky</button>
+            </div>
+        </form>
         <div>
             <p class="main__language" >
                 Other Languages you can use Google:  <a href="">English</a>
@@ -57,5 +60,16 @@
             </ul>
         </div>
     </footer>
+
+    <script>
+        let query = document.querySelector('#form-search');
+        let searchBtn = document.querySelector('#searchBtn');
+
+        searchBtn.onclick = function(e){
+            e.preventDefault();
+            let url = 'https://www.google.com/search?q='+query.value;
+            window.open(url, '_self')
+        }
+    </script>
 </body>
 </html>
