@@ -68,6 +68,10 @@
     <td></td>
     <td><a href="https://anthonyharold67.github.io/my-projects/weatherApp/" target="_blank">Weather App</a></td>
   </tr>
+  <tr>
+    <td></td>
+    <td><a href="https://anthonyharold67.github.io/my-projects/weatherApp-jquery/" target="_blank">Weather App with JQUERY</a></td>
+  </tr>
     <tr>
     <td></td>
     <td><a href="https://anthonyharold67.github.io/my-projects/bootstrap-js-shopping/" target="_blank">Basic Shopping</a></td>
