@@ -61,14 +61,17 @@
     <td><a href="https://anthonyharold67.github.io/my-projects/restCountries/" target="_blank">Rest Countries API</a></td>
   </tr>
   <tr>
-    <td></td>
+    <td><a href="https://anthonyharold67.github.io/my-projects/bootstrap-portfolio/" target="_blank">Portfolio with Bootstrap</a></td>
     <td><a href="https://anthonyharold67.github.io/my-projects/speechToText/" target="_blank">Speech To Text</a></td>
   </tr>
   <tr>
     <td></td>
     <td><a href="https://anthonyharold67.github.io/my-projects/weatherApp/" target="_blank">Weather App</a></td>
   </tr>
-    
+    <tr>
+    <td></td>
+    <td><a href="https://anthonyharold67.github.io/my-projects/bootstrap-js-shopping/" target="_blank">Basic Shopping</a></td>
+  </tr>
 
 </table>
 
