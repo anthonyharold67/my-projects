@@ -70,7 +70,7 @@
   </tr>
   <tr>
     <td></td>
-    <td><a href="https://anthonyharold67.github.io/my-projects/weatherApp-jquery/" target="_blank">Weather App with JQUERY</a></td>
+    <td><a href="https://anthonyharold67.github.io/my-projects/weatherApp-jquery/" target="_blank">Weather App with Jquery</a></td>
   </tr>
     <tr>
     <td></td>
