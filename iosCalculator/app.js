@@ -26,7 +26,7 @@ for(let i=0; i<number.length; i++){
         
         if(e.target.innerHTML=="," && a.indexOf(".")==-1){
             a +=".";
-        }else if(e.target.innerHTML!=","){
+        }else if(e.target.innerHTML!="," && (e.target.innerHTML!="0" || a[0]!=0)){
             a += e.target.innerHTML;
         }
         
@@ -43,8 +43,13 @@ resetButton.addEventListener("click",()=>{
 })
 for(let i=0;i<math.length;i++){
     math[i].addEventListener("click",()=>{
-        math[i].style.backgroundColor="azure";
-        math[i].style.color="black";
+        if(math[i].style.backgroundColor!=="azure"){
+            math[i].style.backgroundColor="azure"
+            math[i].style.color="black"
+        }else{
+            math[i].style.backgroundColor="#FFA000";
+            math[i].style.color="white";
+        }
     })
 };
 for(let i=0; i<operator.length; i++){

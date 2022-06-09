@@ -5,11 +5,12 @@ let right = document.getElementById("right");
 let arr = document.getElementById("arr");
 let tryAgain = document.getElementById("reset");
 const form = document.querySelector("#form");
-tryAgain.style.display ="none";
 let headerColor = document.getElementById("header");
 let footerColor = document.getElementById("footer");
 let images = document.querySelector(".image")
 let again = document.getElementById("again");
+
+tryAgain.style.display ="none";
 again.style.display ="none";
 guessNumber.addEventListener("change",myGuessNumber);
 
@@ -20,7 +21,7 @@ again.addEventListener("click", ()=>{
 })
 guessCheck.addEventListener("click",(e)=>{
     e.preventDefault();
-    myCounter(e);
+    myCounter();
     form.reset();
 });
 function myGuessNumber() {

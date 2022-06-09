@@ -1,6 +1,7 @@
 const döviz = async ()=>{
     const kur = await fetch("https://finans.truncgil.com/today.json");
     const text =await kur.json();
+    console.log(text)
     let newArea=`
     <li> <b>$ USD</b> <br>Alış:${text.USD.Alış}₺  Satış: ${text.USD.Satış}₺ Değişim: <span class="degisim">${text.USD.Değişim}</span> </li>
     <li><b>€ EURO</b><br>Alış:${text.EUR.Alış}  Satış: ${text.EUR.Satış} Değişim: <span class="degisim">${text.EUR.Değişim}</span></li>
@@ -22,10 +23,10 @@ const döviz = async ()=>{
     let miktar= document.getElementById("miktar").value;
     let dolarPrice = text.USD.Alış.replace(",",".");
     let euroPrice = text.EUR.Alış.replace(",",".");
-    let altinPrice = Object.values(text)[68].Alış.replace(",",".");
+    let altinPrice = Object.values(text)[68].Alış.replace(".","").replace(",",".");
     let dolarS = text.USD.Satış.replace(",",".");
     let euroS = text.EUR.Satış.replace(",",".");
-    let altinS = Object.values(text)[68].Satış.replace(",",".");
+    let altinS = Object.values(text)[68].Satış.replace(".","").replace(",",".");
     let usd = document.getElementById("usd");
     let euro = document.getElementById("eur");
     let altin = document.getElementById("altin");
@@ -38,12 +39,17 @@ const döviz = async ()=>{
     }else if(euro.checked){
         let result = +(euroPrice) * +(miktar);
         let resultS = +(euroS) * +(miktar);
+        console.log(euroPrice);
+        console.log(miktar)
         document.getElementById("sonuc").innerHTML=`${miktar} Euro Alış Fiyatı : ${result.toFixed(2)}₺
         <br>${miktar} Euro Satış Fiyatı : ${resultS.toFixed(2)}₺
         `;
     }else if(altin.checked) {
         let result = +(altinPrice) * +(miktar);
         let resultS = +(altinS) * +(miktar);
+        console.log(altinS);
+        console.log(miktar)
+        
         document.getElementById("sonuc").innerHTML= `${miktar} Gram Altın Alış Fiyatı : ${result.toFixed(2)}₺
         <br>${miktar} Gram Altın Satış Fiyatı : ${resultS.toFixed(2)}₺
         ` ;

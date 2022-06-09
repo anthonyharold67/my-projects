@@ -10,7 +10,6 @@ function addElement(){
         alert("Please enter a task.")
     }else{ 
         let taskElem = document.createElement("LI");
-        
         let newSpan = document.createElement("SPAN");
         let newSmall = document.createElement("SMALL");
         let newInput = document.createElement("INPUT");
