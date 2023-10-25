@@ -16,5 +16,6 @@ function dateClock(){
     hour.innerHTML = newHour.toString().padStart(2, "0");
     second.innerHTML = newSecond.toString().padStart(2, "0");
     date.innerHTML=newDate;
-    setInterval(dateClock,1000);
+    // setTimeout(dateClock,1000);
 }
+setInterval(dateClock,1000);
